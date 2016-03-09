@@ -1,4 +1,4 @@
-<?php include ("fonctions.php") ; ?>
+<?php include("factorielle.php"); ?>
 <html>
 	<head>
 	
