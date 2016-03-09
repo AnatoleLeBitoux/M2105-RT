@@ -7,7 +7,7 @@
 <body>
 <h1>creation tableau</h1>*
 <div>
-    <form>
+    <form method="post" action="<?php $_SERVER["PHP_SELF"] ?>">
     <input name="nblignes" id="nblignes" type="number" value="<?php echo $_POST['nblignes']; ?>"/>
     <input name="nbcolonnes" id="nbcolonnes" type="number" value="<?php echo $_POST['nbcolonnes']; ?>"/>
     <input value="Créer le tableau" type="submit"/>
