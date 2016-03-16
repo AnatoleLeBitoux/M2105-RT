@@ -1,5 +1,12 @@
 <?php
 include 'functions.php';
-getHeader(true , exercice1);
+getHeader(true , 'exercice 1');
 ?>
-<div class
+<form class="form-horizontal" action="ex1Validation.php" method="post">
+    <div class="form-group">
+        <label for="nom">Nom :</label>
+        <input class="form-control" type="text"  />
+    </div>
+</form>
+<?php getFooter();
+
