@@ -1,0 +1,5 @@
+<?php
+include 'functions.php';
+getHeader(true , exercice1);
+?>
+<div class
