@@ -3,7 +3,7 @@ include 'functions.php';
 
 getHeader(true , 'exercice 3');
 ?>
-<form action="ex2val.php" method="post">
+<form action="" method="post">
     <fieldset>
         <legend>Question 1 :<br>-Quel est votre navigateur favori</legend>
         <ul>
@@ -12,7 +12,7 @@ getHeader(true , 'exercice 3');
             <li><input type="radio" value="Opera" name="browser">Opera</li>
             <li><input type="radio" value="IE" name="browser">IE</li>
             <li><input type="radio" value="autre" name="browser">autre</li><br>
-            <input type="button" value="soumettre" class="btn btn-default" name=""bouton">
+            <input type="submit" value="soumettre" class="btn btn-default" name="bouton">
         </ul>
 
     </fieldset>
